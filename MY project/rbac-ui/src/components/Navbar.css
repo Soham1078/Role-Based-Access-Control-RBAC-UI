@@ -1,0 +1,32 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    display: flex; /* Arrange items in a row */
+    justify-content: center; /* Center the buttons */
+    align-items: center; /* Vertically align buttons */
+    background-color: #f8f9fa; /* Light background for navbar */
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd; /* Optional bottom border */
+  }
+  
+  .nav-button {
+    margin: 0 15px; /* Space between buttons */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Primary blue color */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .nav-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.8);
+  }
+  
